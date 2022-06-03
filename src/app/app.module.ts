@@ -9,6 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DiretivaNgforComponent } from './diretiva-ngfor/diretiva-ngfor.component';
 import { DiretivaNgclassComponent } from './diretiva-ngclass/diretiva-ngclass.component';
 import { DiretivaNgstyleComponent } from './diretiva-ngstyle/diretiva-ngstyle.component';
+import { OperadorElvisComponent } from './operador-elvis/operador-elvis.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { DiretivaNgstyleComponent } from './diretiva-ngstyle/diretiva-ngstyle.co
     DiretivaNgforComponent,
     DiretivaNgclassComponent,
     DiretivaNgstyleComponent,
+    OperadorElvisComponent,
   ],
   imports: [BrowserModule, NgbModule, FormsModule],
   providers: [],
